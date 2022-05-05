@@ -1,1 +1,1 @@
-import sys\nfor line in sys.stdin:\n\tdef encrypt(line, shift):\n\t\tencryption = \n\t\ttext = line.upper()\n\t\tfor i in range(len(text)):\n\t\t\tcharacter = text[i]\n\t\t\tif character in ABCDEFGHIJKLMNOPQRSTUVWXYZ:\n\t\t\t\tencrypted_code = (ord(character) + shift - 65) % 26 + 65\n\t\t\t\tencrypted_character = chr(encrypted_code)\n\t\t\t\tencryption += encrypted_character\n\n\t\tsys.stdout(encryption)
+ceasar.py
